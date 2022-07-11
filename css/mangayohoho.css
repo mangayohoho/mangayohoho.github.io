@@ -9,7 +9,7 @@
         background-color: #000000;
     }
 
-    .infos , .hideText , .searchBox > input {
+    .infos , .hideText , .searchBox > input , .infoTitle {
         color: white;
     }
 
