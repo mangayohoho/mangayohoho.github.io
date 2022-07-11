@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
 @media (prefers-color-scheme: dark) {
-    body {
+    body , .index > input {
         background-color: #333333;
+    }
+
+    .indexBox {
+        background-color: #000000;
+    }
+
+    .indexp > a , .index > input {
+        color: #ffffff;
+    }
+
+    .index > input {
+        border-color: #ffffff;
     }
 }
 
