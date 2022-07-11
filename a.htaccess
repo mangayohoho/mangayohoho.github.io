@@ -4,13 +4,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteCond %{THE_REQUEST} \.html\ HTTP
 RewriteRule ^([^\.]+)\html$ $1.html [NC,L]
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.jpg -f
-RewriteCond %{THE_REQUEST} \.jpg\ HTTP
-RewriteRule ^([^\.]+)\jpg$ $1.jpg [NC,L]
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.webp -f
-RewriteCond %{THE_REQUEST} \.webp\ HTTP
-RewriteRule ^([^\.]+)\webp$ $1.webp [NC,L]
 </IfModule>
 ErrorDocument 404 /404.html
