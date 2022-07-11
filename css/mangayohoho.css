@@ -18,6 +18,12 @@
     }
 }
 
+@media (prefers-color-scheme: light) {
+    .infoBox {
+        background-color: #f8f4e6;
+    }
+}
+
 body {
     margin: 0;
     font-family: 'Noto Sans JP', sans-serif;
@@ -32,7 +38,6 @@ body {
 }
 
 .infoBox {
-    background-color: #f8f4e6;
     padding: 1% 1% 1% 1%;
     border-radius: 10px;
     margin-bottom: 20%;
