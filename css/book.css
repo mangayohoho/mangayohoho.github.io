@@ -73,6 +73,10 @@ select {
     margin-right: auto;
 }
 
+.bookTitleBox {
+    text-align: center;
+}
+
 .bookTitle {
     font-weight: 700;
     color: #F60F0F;
