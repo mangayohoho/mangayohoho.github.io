@@ -73,6 +73,11 @@ select {
     margin-right: auto;
 }
 
+.bookTitle {
+    font-weight: 700;
+    color: #F60F0F;
+}
+
 @media screen and (min-width:821px) {
     .next {
         width: 23%;
@@ -107,13 +112,17 @@ select {
         margin-left: 20%;
     }
     
-    .bookimg {
+    .bookimg , .bookTitleBox {
         width: 40%;
         margin-left: 30%;
     }
 
     .ad {
         width: 728px;
+    }
+
+    .bookTitle {
+        font-size: 25px;
     }
 }
 
@@ -151,13 +160,17 @@ select {
         margin-left: 20%;
     }
     
-    .bookimg {
+    .bookimg , .bookTitleBox {
         width: 60%;
         margin-left: 20%;
     }
 
     .ad {
         width: 728px;
+    }
+
+    .bookTitle {
+        font-size: 25px;
     }
 }
 
@@ -186,12 +199,16 @@ select {
         margin-left: 10%;
     }
     
-    .bookimg {
+    .bookimg , .bookTitleBox {
         width: 80%;
         margin-left: 10%;
     }
 
     .ad {
         width: 375px;
+    }
+
+    .bookTitle {
+        font-size: 16px;
     }
 }
